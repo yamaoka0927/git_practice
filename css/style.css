@@ -460,3 +460,43 @@
 .q5_white_calc:last-child {
   border-right: none;
 }
+
+/* q7 */
+
+.q7_wrapper {
+  padding-bottom: 300px;
+}
+
+.q7_inner {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.q7_balloon {
+  position: relative;
+  width: 500px;
+  padding: 20px;
+  margin-left: 35px;
+  border: 5px solid #222;
+  border-radius: 30px;
+  word-break: break-all;
+}
+.q7_balloon:before,
+.q7_balloon:after {
+  position: absolute;
+  bottom: 25px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border: 20px solid transparent;
+  content: "";
+}
+.q7_balloon:before {
+  left: -45px;
+  border-right-color: #222;
+}
+.q7_balloon:after {
+  left: -38px;
+  border-right-color: #fff;
+}
