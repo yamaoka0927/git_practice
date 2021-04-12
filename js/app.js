@@ -6,6 +6,8 @@ $(function() {
   $('.layout_head_menu').children('ul').children().on('click', function() {
     var section = '[data-section="' + $(this).data('menu-section') + '"]';
     var position = Number($(section).offset().top) - 95;
-    $(window).scrollTop(position);
+    $('body,html').animate({
+      scrollTop: position
+    }, 500, 'swing');
   });
 });
