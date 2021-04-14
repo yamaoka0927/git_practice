@@ -46,6 +46,7 @@
   box-shadow: 0 10px 20px 0 rgba(0, 0, 0, .2);
   box-sizing: border-box;
   float: right;
+  cursor: pointer;
 }
 
 .layout_head_menu p {
@@ -90,9 +91,44 @@
 
 /* スクロール */
 
-.dummy {
+.layout_key_visual {
+  overflow: hidden;
+}
+
+.layout_key_visual_images {
+  width: 200%;
   height: 540px;
-  background-color: aqua;
+}
+
+.layout_key_visual img {
+  width: 50%;
+  height: 100%;
+}
+
+@keyframes loop {
+  0% {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes loop2 {
+  0% {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-200%);
+  }
+}
+
+.layout_key_visual_images img:first-child {
+  animation: loop 20s -30s linear infinite;
+}
+
+.layout_key_visual_images img:last-child {
+  animation: loop2 20s linear infinite;
 }
 
 /* 全体 */
