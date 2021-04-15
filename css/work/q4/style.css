@@ -43,7 +43,7 @@
   font-size: 12px;
 }
 
-.q4_inner_contents,
+/* .q4_inner_contents,
 .q4_white,
 .q4_blue {
   box-sizing: border-box;
@@ -103,4 +103,4 @@
   transform: translateY(-50%) translateX(-50%);
   top: 50%;
   left: 50%;
-}
+} */

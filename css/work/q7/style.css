@@ -4,7 +4,7 @@
   padding-bottom: 300px;
 }
 
-.q7_inner {
+/* .q7_inner {
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -39,4 +39,4 @@
 .q7_balloon:after {
   left: -38px;
   border-right-color: #fff;
-}
+} */

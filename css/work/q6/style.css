@@ -13,7 +13,7 @@
   margin-top: 62px;
 }
 
-.q6_img_box {
+/* .q6_img_box {
   width: 242px;
   height: 164px;
   margin-left: 50px;
@@ -61,9 +61,9 @@
   bottom: 0;
 }
 
-/* アニメーションだから一応こっち */
+アニメーションだから一応こっち
 
-/* スクロール */
+スクロール
 
 .layout_key_visual {
   overflow: hidden;
@@ -103,4 +103,4 @@
 
 .layout_key_visual_images img:last-child {
   animation: loop2 20s linear infinite;
-}
+} */
