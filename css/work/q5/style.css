@@ -3,7 +3,6 @@
 .q5_inner_contents,
 .q5_white,
 .q5_white_calc {
-  border: solid 1px#707070;
   box-sizing: border-box;
 }
 
@@ -32,6 +31,7 @@
   padding: 20px 34px;
   margin: 13px auto 0 auto;
   background-color: #eee;
+  border: solid 1px#707070;
 }
 
 .q5_inner:last-child .q5_inner_contents {

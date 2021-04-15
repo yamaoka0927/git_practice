@@ -14,13 +14,7 @@
 
 .q4_inner_title {
   font-size: 14px;
-}
-
-.q4_inner_contents,
-.q4_white,
-.q4_blue {
-  border: solid 1px#707070;
-  box-sizing: border-box;
+  text-align: center;
 }
 
 .q4_inner_contents {
@@ -43,6 +37,16 @@
 
 .q4_white_large {
   height: 130px;
+}
+
+.q4_blue {
+  font-size: 12px;
+}
+
+.q4_inner_contents,
+.q4_white,
+.q4_blue {
+  box-sizing: border-box;
 }
 
 .q4_blue {
