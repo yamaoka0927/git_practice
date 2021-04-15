@@ -3,13 +3,13 @@
 .q2_table {
   width: 100%;
   table-layout: fixed;
+  text-align: center;
 }
 
 .q2_table th,
 .q2_table td {
   padding: 10px;
   border: 1px solid #dedede;
-  text-align: center;
 }
 
 .q2_table th {
@@ -19,15 +19,10 @@
   color: #fff
 }
 
-.q2_table tr {
-  font-size: 16px;
-  line-height: 22px;
-}
-
 .q2_table tbody tr:nth-child(even) {
   background-color: #ecf1f2;
 }
 
-.q2_table > tbody > tr:last-child {
+.q2_table tbody tr:last-child {
   border-top: 2px dashed #000;
 }
