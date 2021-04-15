@@ -60,3 +60,47 @@
 .q6_img_box.q6_img_slideup:hover .q6_text {
   bottom: 0;
 }
+
+/* アニメーションだから一応こっち */
+
+/* スクロール */
+
+.layout_key_visual {
+  overflow: hidden;
+}
+
+.layout_key_visual_images {
+  width: 200%;
+  height: 540px;
+}
+
+.layout_key_visual img {
+  width: 50%;
+  height: 100%;
+}
+
+@keyframes loop {
+  0% {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes loop2 {
+  0% {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-200%);
+  }
+}
+
+.layout_key_visual_images img:first-child {
+  animation: loop 20s -30s linear infinite;
+}
+
+.layout_key_visual_images img:last-child {
+  animation: loop2 20s linear infinite;
+}
