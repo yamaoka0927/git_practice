@@ -83,3 +83,27 @@
   background-color: #ffefd3;
   position: absolute;
 }
+
+.q3_fixed_box {
+  width: 50px;
+  height: 50px;
+  background-color: #2b69a3;
+}
+
+.q3_fixed_box {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+}
+
+.q3_fixed_box::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: rotate(-45deg) translateY(-45%) translateX(-15%);
+  width: 15px;
+  height: 15px;
+  border-top: 1px solid #fff;
+  border-right: 1px solid #fff;
+}

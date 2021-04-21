@@ -10,4 +10,11 @@ $(function() {
       scrollTop: position
     }, 500, 'swing');
   });
+
+  // idにするか迷う
+  $('.q3_fixed_box').on('click', function() {
+    $('body,html').animate({
+      scrollTop: 0
+    }, 500, 'swing');
+  });
 });
