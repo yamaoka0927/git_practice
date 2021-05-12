@@ -5,17 +5,9 @@
   justify-content: center;
 }
 
-.q6_py {
-  padding-bottom: 70px;
-}
-
-.q6_wrapper {
-  margin-top: 62px;
-}
-
 .q6_img_box {
-  width: 242px;
-  height: 164px;
+  width: 300px;
+  height: 201.8px;
   margin-left: 50px;
   position: relative;
   overflow: hidden;
@@ -52,7 +44,7 @@
   left: 0;
   width: 100%;
   padding: 20px;
-  color: #FFF;
+  color: #fff;
   box-sizing: border-box;
   word-break: break-all;
 }

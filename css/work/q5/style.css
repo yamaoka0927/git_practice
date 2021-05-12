@@ -6,24 +6,13 @@
   box-sizing: border-box;
 }
 
-.q5_wrapper {
-  padding: 21px 0 75px;
-}
-
-.q5_inner {
-  margin-top: 21px;
-}
-
 .q5_inner:first-child {
   margin-top: 0;
 }
 
-.q5_text_center {
-  text-align: center;
-}
-
 .q5_inner_title {
   font-size: 14px;
+  text-align: center;
 }
 
 .q5_inner_contents {
@@ -48,6 +37,11 @@
 
 .q5_white {
   width: 200px;
+}
+
+.q5_white_calc {
+  width: calc((100% - 50px) / 3);
+  margin-left: 25px;
 }
 
 .q5_float,
@@ -89,17 +83,4 @@
 .q5_flex {
   display: flex;
   justify-content: space-between;
-}
-
-.q5_white_calc {
-  width: calc((100% - 50px) / 3);
-  margin-left: 25px;
-}
-
-.q5_white_calc:first-child {
-  border-left: none;
-}
-
-.q5_white_calc:last-child {
-  border-right: none;
 }

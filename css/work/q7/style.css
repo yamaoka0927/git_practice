@@ -1,9 +1,5 @@
 @charset "UTF-8";
 
-.q7_wrapper {
-  padding-bottom: 300px;
-}
-
 .q7_inner {
   display: flex;
   justify-content: center;
