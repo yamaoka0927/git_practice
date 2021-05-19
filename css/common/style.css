@@ -92,11 +92,17 @@
 /* 全体 */
 
 .layout_main {
-  padding-top: 80px;
+  padding: 80px 0 200px 0;
 }
 
-.layout_main_section {
-  margin-top: 15px;
+.sub_inner,
+.layout_main_section,
+.layout_main_section_contents {
+  margin-top: 50px;
+}
+
+.sub_inner:first-child {
+  margin-top: 0;
 }
 
 .layout_main_section_title {
@@ -190,12 +196,9 @@
   margin-top: 0;
 }
 
-.q5_text_center {
-  text-align: center;
-}
-
 .q5_inner_title {
   font-size: 14px;
+  text-align: center;
 }
 
 .q5_inner_contents {
@@ -221,16 +224,4 @@
 .q6_inner {
   display: flex;
   justify-content: center;
-}
-
-.q6_py {
-  padding-bottom: 70px;
-}
-
-.q6_wrapper {
-  margin-top: 62px;
-}
-
-.q7_wrapper {
-  padding-bottom: 300px;
 }
