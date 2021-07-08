@@ -118,19 +118,17 @@
 }
 
 
-/* スクロールトップボタン。本当はrelative外したい */
 .q3_fixed_box {
   width: 50px;
   height: 50px;
+  padding: 24px;
+  box-sizing: border-box;
   background-color: #eee;
-  position: relative;
 }
 
 .q3_fixed_box::before {
   content: "";
-  position: absolute;
-  top: 50%;
-  left: 50%;
+  display: block;
   transform: rotate(-45deg) translateY(-45%) translateX(-15%);
   width: 15px;
   height: 15px;
