@@ -1,5 +1,49 @@
 @charset "UTF-8";
 
+.graph {
+  table-layout: auto;
+  width: 100%;
+  padding: auto;
+  border: solid #dedede 1px;
+}
+
+.graph th:first-child {
+  color: white;
+  background-color: #2244aa;
+}
+
+.graph th {
+  padding: 10px 0;
+  border: solid #dedede 1px;
+  color: white;
+  font-size: 18px;
+  line-height: 22px;
+  background-color: #2244aa;
+}
+
+.graph td {
+  border: solid #dedede 1px;
+  font-size: 16px;
+  line-height: 22px;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.graph tr:last-child {
+  border-top: dotted #000 2px ;
+}
+
+.graph tr:nth-child(2n+1) {
+  background-color: #ecf1f2;
+}
+
+
+
+
+
+
+
+
 
 /* q2が終わったら
 q3のcssはq3フォルダの中のcssファイルに記述してください */

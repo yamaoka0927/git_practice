@@ -1,5 +1,37 @@
 @charset "UTF-8";
 
+.clearfix:after {
+  display: block;
+  content: "";
+  clear: both;
+}
 
+.q1__content {
+  width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #eff3f4;
+  box-sizing: border-box;
+}
+
+.q1_content_box {
+  float: left;
+  margin-left: 20px;
+  padding: 20px;
+  width: 230px;
+  background-color: #3274ae;
+}
+
+.q1__content .q1_content_box:first-child {
+  margin-left: 0;
+}
+
+.q1_content_text {
+  padding: 20px;
+  font-size: 16px;
+  line-height: 16px;
+  border: 10px solid #022336;
+  background-color: #eaf4ff;
+}
 /* q1が終わったら
 q2のcssはq2フォルダの中のcssファイルに記述してください */
