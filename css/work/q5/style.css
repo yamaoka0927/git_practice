@@ -1,5 +1,99 @@
 @charset "UTF-8";
 
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
 
+.second_contents {
+  float: left;
+}
+
+.float_contents_one {
+  float: left;
+  width: 400px;
+  margin-right: 30px;
+}
+
+.float_contents_two {
+  float: left;
+  width: 400px;
+  margin-left: 30px;
+}
+
+
+.main-table-contents {
+  display: table;
+  clear: both;
+}
+
+.table_contents {
+  display: table-cell;
+  width: 400px;
+}
+
+.table_contents_two {
+  display: table-cell;
+  width: 400px;
+}
+
+.white-table-box {
+  margin-right: 30px;
+}
+
+.white-table-box-two {
+  margin-left: 30px;
+}
+
+.inline-block-contents {
+  font-size: 0px;
+}
+
+.white-inline-box {
+  width: 400px;
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.white-inline-box-two {
+  width: 400px;
+  display: inline-block;
+  margin-left: 30px;
+}
+
+.flex-contents {
+  display: flex;
+  flex-direction: row;
+}
+
+.white-flex-box {
+  width: 400px;
+  margin-right: 30px;
+}
+
+.white-flex-box-two {
+  width: 400px;
+  margin-left: 30px;
+}
+
+.calc-contents {
+  display: flex;
+  font-size: 0px;
+}
+
+.inner-calc-contents-one {
+  width: calc(100% / 3);
+  margin-right: 30px;
+}
+
+.inner-calc-contents-two {
+  width: calc(100% / 3);
+  margin-right: 30px;
+}
+
+.inner-calc-contents-three {
+  width: calc(100% / 3);
+}
 /* q5が終わったら
 q6のcssはq6フォルダの中のcssファイルに記述してください */

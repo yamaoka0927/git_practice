@@ -1,12 +1,12 @@
 @charset "UTF-8";
 
-.white-box {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.white-text-aligin-box {
+  text-align: center;
+  padding-top: 30px;
 }
 
-.blue-box {
+.text-aligin-box {
+  display: inline-block;
   text-align: center;
 }
 

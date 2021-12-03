@@ -7,18 +7,29 @@
 }
 
 .q1__content {
-  width: 900px;
-  margin: 0 auto;
-  padding: 20px;
-  background-color: #eff3f4;
-  box-sizing: border-box;
+  width: 960px;
 }
 
-.q1_content_box {
+.q1_content_box_one {
   float: left;
-  margin-left: 20px;
+  margin-right: 30px;
   padding: 20px;
-  width: 230px;
+  width: 260px;
+  background-color: #3274ae;
+}
+
+.q1_content_box_two {
+  float: left;
+  margin-right: 30px;
+  padding: 20px;
+  width: 260px;
+  background-color: #3274ae;
+}
+
+.q1_content_box_three {
+  float: left;
+  padding: 20px;
+  width: 260px;
   background-color: #3274ae;
 }
 

@@ -1,9 +1,8 @@
 @charset "UTF-8";
 
 .graph {
-  table-layout: auto;
+  table-layout: fixed;
   width: 100%;
-  padding: auto;
   border: solid #dedede 1px;
 }
 
@@ -17,7 +16,7 @@
   border: solid #dedede 1px;
   color: white;
   font-size: 18px;
-  line-height: 22px;
+  line-height: 26px;
   background-color: #2244aa;
 }
 
@@ -30,7 +29,7 @@
 }
 
 .graph tr:last-child {
-  border-top: dotted #000 2px ;
+  border-top: dashed 2px #000  ;
 }
 
 .graph tr:nth-child(2n+1) {

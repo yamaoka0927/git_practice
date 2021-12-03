@@ -1,5 +1,33 @@
 @charset "UTF-8";
 
+.q6_animation_img {
+  position: relative;
+  width: 300px;
+  
+}
+
+.q6_img_one_animation {
+  overflow: hidden;
+  width: 300px;
+  margin-right: 50px;
+  transition-duration: 0.5s;
+}
+
+.q6_img_one {
+  overflow: hidden;
+  width: 300px;
+  margin-right: 50px;
+  transition-duration: 0.5s;
+}
+
+.q6_img_one:hover {
+  transform: scale(1.2);
+}
+
+.q6_img_two {
+  width: 300px;
+}
+
 
 /* q6が終わったら
 q7のcssはq7フォルダの中のcssファイルに記述してください */

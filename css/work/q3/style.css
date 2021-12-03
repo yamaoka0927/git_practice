@@ -6,20 +6,24 @@
   background-color: #ecf1f2;
   position: relative;
   margin: auto;
+  font-size: 30px;
+  text-align: center;
 }
 
 .one-box {
   width: 100px;
-  height: 100px;
   background-color: #ffefd3;
   position: absolute;
   top: 40px;
   left: 200px;
+  padding: 35px 0;
+  font-weight: bold;
 }
 
 .two-box {
   width: 100px;
-  height: 100px;
+  padding: 35px 0;
+  font-weight: bold;
   background-color: #7084de;
   position: absolute;
   top: 120px;
@@ -29,7 +33,8 @@
 
 .three-box {
   width: 100px;
-  height: 100px;
+  padding: 35px 0;
+  font-weight: bold;
   background-color: #d0ecea;
   position: absolute;
   top: 200px;
@@ -39,7 +44,8 @@
 
 .four-box {
   width: 100px;
-  height: 100px;
+  padding: 35px 0;
+  font-weight: bold;
   background-color: #8b7a5e;
   position: absolute;
   top: 280px;
@@ -49,7 +55,8 @@
 
 .five-box {
   width: 100px;
-  height: 100px;
+  padding: 35px 0;
+  font-weight: bold;
   background-color: #9fd6d2;
   position: absolute;
   bottom: 40px;
@@ -59,7 +66,8 @@
 
 .six-box {
   width: 100px;
-  height: 100px;
+  padding: 35px 0;
+  font-weight: bold;
   background-color: #fffee4;
   position: absolute;
   bottom: 120px;
@@ -69,7 +77,8 @@
 
 .seven-box {
   width: 100px;
-  height: 100px;
+  padding: 35px 0;
+  font-weight: bold;
   background-color: #deae70;
   position: absolute;
   top: 200px;
@@ -79,7 +88,8 @@
 
 .eight-box {
   width: 100px;
-  height: 100px;
+  padding: 35px 0;
+  font-weight: bold;
   background-color: #de70cf;
   position: absolute;
   top: 120px;
