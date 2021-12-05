@@ -1,5 +1,12 @@
 @charset "UTF-8";
 
+.one-box, .two-box, .three-box, .four-box, .five-box, .six-box, .seven-box, .eight-box {
+  width: 100px;
+  padding: 35px 0;
+  position: absolute;
+}
+
+
 .q3 {
   width: 500px;
   height: 500px;
@@ -11,87 +18,63 @@
 }
 
 .one-box {
-  width: 100px;
   background-color: #ffefd3;
-  position: absolute;
   top: 40px;
   left: 200px;
-  padding: 35px 0;
   font-weight: bold;
 }
 
 .two-box {
-  width: 100px;
-  padding: 35px 0;
   font-weight: bold;
   background-color: #7084de;
-  position: absolute;
   top: 120px;
   left: 280px;
   z-index: 1;
 }
 
 .three-box {
-  width: 100px;
-  padding: 35px 0;
   font-weight: bold;
   background-color: #d0ecea;
-  position: absolute;
   top: 200px;
   right: 40px;
   z-index: 2;
 }
 
 .four-box {
-  width: 100px;
-  padding: 35px 0;
   font-weight: bold;
   background-color: #8b7a5e;
-  position: absolute;
   top: 280px;
   right: 120px;
   z-index: 3;
 }
 
 .five-box {
-  width: 100px;
-  padding: 35px 0;
   font-weight: bold;
   background-color: #9fd6d2;
-  position: absolute;
   bottom: 40px;
   left: 200px;
   z-index: 4;
 }
 
 .six-box {
-  width: 100px;
-  padding: 35px 0;
   font-weight: bold;
   background-color: #fffee4;
-  position: absolute;
   bottom: 120px;
   left: 120px;
   z-index: 5;
 }
 
 .seven-box {
-  width: 100px;
-  padding: 35px 0;
   font-weight: bold;
   background-color: #deae70;
-  position: absolute;
   top: 200px;
   left: 40px;
   z-index: 6;
 }
 
 .eight-box {
-  width: 100px;
-  padding: 35px 0;
   font-weight: bold;
   background-color: #de70cf;
-  position: absolute;
   top: 120px;
   left: 120px;
   z-index: 7;

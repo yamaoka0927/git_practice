@@ -29,10 +29,11 @@
   display: inline-block;
 }
 
-.q4_white_large {
+.q4_white_flex-box {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 30px 60px;
 }
 
 .flex {
