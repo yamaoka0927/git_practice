@@ -31,23 +31,61 @@
 }
 
 .fukidashi {
-  background: rgba(0, 0, 0, 8);
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 8));
   position: absolute;
-  top: 0;
   left: 0;
-  opacity: 0;
-  padding: 20px;
+  bottom: -100%;
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s;
+}
+
+.q6_img_two_animation img  {
+  vertical-align: bottom;
+  width: 300px;
+  transition-duration: 0.5s;
+}
+
+.q6_img_two_animation img:hover {
+  transition-duration: 0.5s;
 }
 
 .fukidashi:hover {
-  opacity: 1;
   transition: all 0.5s ease;
-  padding-bottom: 80px;
+  padding-bottom: 100px;
 } 
 
 .fukidashi-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
   color: #fff;
 }
 
+
+
+
+.inner {
+  width: 960px;
+}
+
+.inner_animation {
+  overflow: hidden;
+}
+
+.animation_text {
+  font-size: 200px;
+  padding: 80px 0;
+  animation: loop 10s linear infinite;
+  transform: translateX(100%);
+}
+
+@keyframes loop {
+  100% {
+    transform: translateX(-100%);
+  }
+}
 /* q6が終わったら
 q7のcssはq7フォルダの中のcssファイルに記述してください */
