@@ -28,49 +28,49 @@
   background-color: #7084de;
   top: 120px;
   left: 280px;
-  z-index: 1;
+  z-index: 10;
 }
 
 .three-box {
   background-color: #d0ecea;
   top: 200px;
   right: 40px;
-  z-index: 2;
+  z-index: 20;
 }
 
 .four-box {
   background-color: #8b7a5e;
   top: 280px;
   right: 120px;
-  z-index: 3;
+  z-index: 30;
 }
 
 .five-box {
   background-color: #9fd6d2;
   bottom: 40px;
   left: 200px;
-  z-index: 4;
+  z-index: 40;
 }
 
 .six-box {
   background-color: #fffee4;
   bottom: 120px;
   left: 120px;
-  z-index: 5;
+  z-index: 50;
 }
 
 .seven-box {
   background-color: #deae70;
   top: 200px;
   left: 40px;
-  z-index: 6;
+  z-index: 60;
 }
 
 .eight-box {
   background-color: #de70cf;
   top: 120px;
   left: 120px;
-  z-index: 7;
+  z-index: 70;
 }
 
 .eight-box:before {
