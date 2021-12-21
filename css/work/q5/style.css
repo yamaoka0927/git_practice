@@ -26,6 +26,7 @@
 .main-table-contents {
   display: table;
   clear: both;
+  width: 100%;
 }
 
 .table_contents {

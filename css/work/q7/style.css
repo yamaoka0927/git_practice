@@ -2,26 +2,42 @@
 
 .balloon {
   padding: 20px;
-  width: 515px;
+  width: 500px;
   position: relative;
-  display: inline-block;
   border-radius: 30px;
   border: #222 solid 5px;
-  margin-left: 10px;
-  margin: 50px;
+  margin-left: 35px;
+  word-break: break-all;
 }
 
 .balloon::before {
   content: "";
-  display: block;
   position: absolute;
-  border: 30px solid transparent;
-  border-right: 20px solid #222;
-  top: 50%;
-  right: 100%;
+  border: 20px solid transparent;
+  width: 0;
+  height: 0;
+  left: -45px;
+  border-right-color: #222;
+  bottom: 25px;
 }
 
-.balloon-text p {
-  margin: 0;
-  padding: 0;
+.balloon::after {
+  content: "";
+  position: absolute;
+  border: 20px solid transparent;
+  width: 0;
+  height: 0;
+  left: -38px;
+  border-right-color: #fff;
+  bottom: 25px;
+}
+
+.layout_main_section_contents {
+  margin-top: 50px;
+}
+
+.q7_inner {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
 }

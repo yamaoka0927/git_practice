@@ -30,7 +30,7 @@
   overflow: hidden;
 }
 
-.fukidashi {
+.q6_animation_text {
   background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 8));
   position: absolute;
   left: 0;
@@ -46,17 +46,19 @@
   transition-duration: 0.5s;
 }
 
-.q6_img_two_animation:hover .fukidashi {
+.q6_img_two_animation:hover .q6_animation_text {
   bottom: 0;
 }
 
-.fukidashi-text {
+.animation-text {
   position: absolute;
   bottom: 0;
   left: 0;
   width: 100%;
   padding: 20px;
   color: #fff;
+  box-sizing: border-box;
+  word-break: break-all;
 }
 
 
