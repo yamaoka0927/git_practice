@@ -3,64 +3,46 @@
 .clearfix::after {
   content: "";
   display: block;
-  clear: both;
 }
 
-.second_contents {
-  float: left;
-}
-
-.float_contents_one {
+.q5_float {
   float: left;
   width: 400px;
-  margin-right: 30px;
 }
 
 .float_contents_two {
-  float: left;
-  width: 400px;
-  margin-left: 30px;
+  margin-left: 60px;
 }
 
 
 .main-table-contents {
   display: table;
-  clear: both;
   width: 100%;
 }
 
 .table_contents {
   display: table-cell;
-  width: 400px;
 }
 
 .table_contents_two {
   display: table-cell;
-  width: 400px;
-}
-
-.white-table-box {
-  margin-right: 30px;
 }
 
 .white-table-box-two {
-  margin-left: 30px;
+  margin-left: 60px;
 }
 
 .inline-block-contents {
   font-size: 0px;
 }
 
-.white-inline-box {
-  width: 400px;
+.q5_inline {
   display: inline-block;
-  margin-right: 30px;
+  width: 400px;
 }
 
 .white-inline-box-two {
-  width: 400px;
-  display: inline-block;
-  margin-left: 30px;
+  margin-left: 60px;
 }
 
 .flex-contents {
@@ -68,14 +50,12 @@
   flex-direction: row;
 }
 
-.white-flex-box {
+.q5_flex {
   width: 400px;
-  margin-right: 30px;
 }
 
 .white-flex-box-two {
-  width: 400px;
-  margin-left: 30px;
+  margin-left: 60px;
 }
 
 .calc-contents {
@@ -83,18 +63,16 @@
   font-size: 0px;
 }
 
-.inner-calc-contents-one {
+.q5_calc {
   width: calc(100% / 3);
-  margin-right: 30px;
 }
 
 .inner-calc-contents-two {
-  width: calc(100% / 3);
-  margin-right: 30px;
+  margin-left: 30px;
 }
 
 .inner-calc-contents-three {
-  width: calc(100% / 3);
+  margin-left: 30px;
 }
 /* q5が終わったら
 q6のcssはq6フォルダの中のcssファイルに記述してください */
