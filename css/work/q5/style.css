@@ -8,12 +8,12 @@
 .q5_float {
   float: left;
   width: 400px;
-}
-
-.float_contents_two {
   margin-left: 60px;
 }
 
+.q5_float:first-child {
+  margin-left: 0;
+}
 
 .main-table-contents {
   display: table;
@@ -26,10 +26,7 @@
 
 .table_contents_two {
   display: table-cell;
-}
-
-.white-table-box-two {
-  margin-left: 60px;
+  padding-left: 60px;
 }
 
 .inline-block-contents {
@@ -39,24 +36,26 @@
 .q5_inline {
   display: inline-block;
   width: 400px;
+  margin-left: 60px;
 }
 
-.white-inline-box-two {
-  margin-left: 60px;
+.q5_inline:first-child {
+  margin-left: 0;
 }
 
 .flex-contents {
   display: flex;
-  flex-direction: row;
 }
 
 .q5_flex {
   width: 400px;
-}
-
-.white-flex-box-two {
   margin-left: 60px;
 }
+
+.q5_flex:first-child {
+  margin-left: 0;
+}
+
 
 .calc-contents {
   display: flex;
@@ -65,14 +64,11 @@
 
 .q5_calc {
   width: calc(100% / 3);
-}
-
-.inner-calc-contents-two {
   margin-left: 30px;
 }
 
-.inner-calc-contents-three {
-  margin-left: 30px;
+.q5_calc:first-child {
+  margin-left: 0;
 }
 /* q5が終わったら
 q6のcssはq6フォルダの中のcssファイルに記述してください */
