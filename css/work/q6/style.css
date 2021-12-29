@@ -66,23 +66,39 @@
 
 .inner {
   width: 960px;
+  margin: 0 auto;
 }
 
 .inner_animation {
   overflow: hidden;
+  position: relative;
 }
 
 .animation_text {
-  font-size: 200px;
+  height: 540px;
+  font-size: 0;
   padding: 80px 0;
+  box-sizing: border-box;
+}
+
+.animation_text p {
   animation: loop 10s linear infinite;
-  transform: translateX(100%);
+}
+
+.inner_animation p {
+  height: 100%;
+  font-size: 200px;
+  display: inline-block;
 }
 
 @keyframes loop {
+  0% {
+    transform: translateX(100%);
+  }
   100% {
     transform: translateX(-100%);
   }
 }
+
 /* q6が終わったら
 q7のcssはq7フォルダの中のcssファイルに記述してください */

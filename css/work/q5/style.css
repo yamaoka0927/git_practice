@@ -20,13 +20,13 @@
   width: 100%;
 }
 
-.table_contents {
-  display: table-cell;
-}
-
-.table_contents_two {
+.q5_table {
   display: table-cell;
   padding-left: 60px;
+}
+
+.q5_table:first-child {
+  padding-left: 0;
 }
 
 .inline-block-contents {
